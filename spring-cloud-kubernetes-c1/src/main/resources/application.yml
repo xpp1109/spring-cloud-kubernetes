@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: c1
+server:
+  port: 8080
