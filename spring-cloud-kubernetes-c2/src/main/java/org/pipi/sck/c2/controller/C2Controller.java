@@ -2,15 +2,12 @@ package org.pipi.sck.c2.controller;
 
 import org.pipi.sck.c2.svc.C1Svc;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 public class C2Controller {
